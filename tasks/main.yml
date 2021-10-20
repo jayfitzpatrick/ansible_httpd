@@ -1,8 +1,6 @@
 ---
 # tasks file for github/ansible_httpd
 
----
-
 - name: Install Apache
   yum:
     name: httpd
